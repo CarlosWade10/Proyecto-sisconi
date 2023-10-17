@@ -1,0 +1,28 @@
+.offcanvas{
+ width: 200px;
+ background-color: white;   
+}
+
+.btn-desple{
+ display: flex;
+ align-items: center; 
+ width: 175px;
+}
+
+.btn-desple > ion-icon{
+  margin-right: 10px;  
+  font-size: 25px;       
+}
+
+.btn-login{
+ background-color: rgb(4, 4, 90);
+ color: white;
+ display: flex;
+ align-items: center; 
+ width: 165px; 
+}
+
+.btn-login > ion-icon{
+ margin-right: 10px;  
+ font-size: 25px;       
+}
