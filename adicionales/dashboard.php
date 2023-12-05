@@ -43,7 +43,7 @@
       <button class="btn-login btn btn-info mb-2" onclick="redirecCompras()">
         <ion-icon name="bag-add-outline"></ion-icon> Compras </button>
 
-      <button class="btn-login btn btn-info mb-2" onclick="">
+      <button class="btn-login btn btn-info mb-2" onclick="redirecVentas()">
         <ion-icon name="cash-outline"></ion-icon> Ventas </button>
           
       <button class="btn-login btn btn-info mb-2" onclick="redirecInventario()">
@@ -93,6 +93,10 @@
 
   function redirecInventario(){
   location.href="../paginas/Inventario.php"
+  }
+
+  function redirecVentas(){
+  location.href="../paginas/ventas.php"  
   }
 </script>
 
