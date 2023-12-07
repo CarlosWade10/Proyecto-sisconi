@@ -92,7 +92,7 @@
   }
 
   function redirecInventario(){
-  location.href="../paginas/Inventario.php"
+  location.href="../paginas/InventarioV2.php"
   }
 
   function redirecVentas(){
